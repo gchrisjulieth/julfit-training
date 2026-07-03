@@ -1,0 +1,272 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #1C305B !important;
+    padding: 15px 0;
+}
+
+.navbar-brand img{
+    height:50px;
+    width:auto;
+}
+.nav-item{
+    margin-left: 15px;
+}
+
+.nav-link{
+    color:#ffffff!important;
+    font-size:18px;
+    font-weight:500;
+    margin-left:20px;
+    transition:. all .3s ease;
+}
+
+.nav-link:hover{
+    color:#E7453E !important;
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* carrusel */
+
+.carousel h1{
+    font-weight: 700;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.carousel p{
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+}
+
+/* boton */
+
+.btn-julfit{
+    background-color: #E7453E;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-julfit:hover{
+    background-color: #a91a15;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* titulo seccion */
+
+section h2{
+    font-size: 40px;
+    color:#E7453E;
+    text-align: center;
+    font-weight: 650;
+    margin-bottom: 40px;
+}
+
+/* seccion */
+
+#entrenamiento{
+
+    padding:80px 0;
+
+}
+
+#entrenamiento p{
+
+    font-size:1.1rem;
+    line-height:1.9;
+    color:#555;
+
+}
+
+#entrenamiento img{
+
+    border-radius:15px;
+    box-shadow: 0 19px 15px rgba(0,0,0,.25);
+   
+
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+/* cards */
+
+.rutina-card {
+    background-color: #ececec; /* rosa light */
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.rutina-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(231, 69, 62, 0.25);
+}
+
+.rutina-card .card-title {
+    color: #E7453E;
+    font-weight: 600;
+}
+
+.rutina-card .card-text {
+    color: #555;
+}
+
+.rutina-card img {
+    border-radius: 15px 15px 0 0;
+}
+
+/* preguntas */
+
+#section h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #E7453E;
+}
+
+#informacion{
+    background-color: #f8f9fa;
+}
+
+
+#informacion p{
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* acordeon */
+
+.accordion-item{
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.accordion-button{
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #e63946;
+    color: white;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-body{
+    line-height: 1.8;
+    color: #555;
+}
+
+/* contacto */
+
+#contacto p{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.form-control,
+.form-select{
+
+    padding:12px;
+    border-radius:10px;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#e63946;
+    box-shadow:0 0 0 .2rem rgba(230,57,70,.25);
+
+}
+
+/* footer */
+
+footer{
+
+    background:#1C305B;
+
+    color:white;
+
+}
+
+.footer-logo{
+
+    width:90px;
+    height:100%;
+
+}
+
+footer h3{
+
+    font-weight:700;
+    margin-top:20px;
+
+}
+
+.footer-text{
+
+    max-width:600px;
+    margin:20px auto;
+    color:#d6d6d6;
+    line-height:1.8;
+
+}
+
+footer a{
+
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+footer a:hover{
+
+    color:#e63946;
+
+}
+
+footer hr{
+
+    border-color:#444;
+
+}
+
+.copyright{
+
+    color:#999;
+    margin-top:20px;
+    font-size:.95rem;
+
+}
